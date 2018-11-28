@@ -1,0 +1,28 @@
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+non_linear_models_with_calibration.py:32: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  df_valid['pf'] = prob_pos
+Start running..................
+era121 3784 69.31% False
+era122 3802 69.21% True
+era123 3736 69.36% False
+era124 3826 69.17% True
+era125 3863 69.27% True
+era126 3980 69.21% True
+era127 3779 69.38% False
+era128 3833 69.30% False
+era129 3931 69.15% True
+era130 4007 69.22% True
+era131 3990 69.24% True
+era132 3831 69.36% False
+
+consistency: 58.3% (7/12)
+Saved: ./predictions/./non_linear_predictions_1527973525_6926532852502731.csv
+Saved stats: ./logs/stats_non_linear.txt
+Fished: 182.1392786502838s

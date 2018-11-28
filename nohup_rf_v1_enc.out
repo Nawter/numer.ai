@@ -1,0 +1,29 @@
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+random_forest_v1_with_encoders.py:50: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  valid['pf']=bagged_prediction
+Start running..................
+Logloss: 0.6927619210156402
+era121 3784 69.30% True
+era122 3802 69.23% True
+era123 3736 69.32% False
+era124 3826 69.24% True
+era125 3863 69.31% False
+era126 3980 69.25% True
+era127 3779 69.30% True
+era128 3833 69.30% False
+era129 3931 69.19% True
+era130 4007 69.27% True
+era131 3990 69.28% True
+era132 3831 69.34% False
+
+consistency: 66.7% (8/12)
+Saved: ./predictions/./rf_with_encoders_predictions_1527976470_6927619210156402.csv
+Saved stats: ./logs/stats_rf_v1_enc.txt
+Fished: 3124.7940793037415s

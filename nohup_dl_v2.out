@@ -1,0 +1,61 @@
+nohup: ignoring input
+2018-06-03 09:20:31.255512: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-06-03 09:20:31.341720: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-06-03 09:20:31.342113: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:1e.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-06-03 09:20:31.342134: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0
+2018-06-03 09:20:31.623653: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-03 09:20:31.623701: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 
+2018-06-03 09:20:31.623711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N 
+2018-06-03 09:20:31.624002: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10763 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0, compute capability: 3.7)
+Start running..................
+Fitting 10 folds for each of 10 candidates, totalling 100 fits
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6932103741293336, total= 5.2min
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6923882319383271, total= 5.3min
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6922791758213939, total= 5.3min
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6932745024374254, total= 5.2min
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6933469738145144, total= 5.3min
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6937515520791014, total= 5.3min
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6928810246056268, total= 5.3min
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6931221798476538, total= 5.3min
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6931907882876734, total= 5.2min
+[CV] optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus 
+[CV]  optimizer=Adadelta, neurons3=50, neurons2=300, neurons=1200, momentum=0.0, learn_rate=0.1, epochs=17, dropout=0.26, batch_size=256, activation=softplus, score=-0.6926185169035617, total= 5.1min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6941153484002149, total= 5.3min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6929296846010234, total= 5.4min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6937517050130947, total= 5.4min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6931935948056792, total= 5.4min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6942902951264166, total= 5.5min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6956887554723539, total= 5.5min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6927292448289151, total= 5.5min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6940750287270431, total= 5.5min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6932534995432791, total= 5.7min
+[CV] optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear 
+[CV]  optimizer=Nadam, neurons3=75, neurons2=300, neurons=600, momentum=0.2, learn_rate=0.3, epochs=19, dropout=0.01, batch_size=256, activation=linear, score=-0.6937291139114563, total= 5.5min
+[CV] optimizer=SGD, neurons3=50, neurons2=300, neurons=7, momentum=0.2, learn_rate=0.1, epochs=40, dropout=0.4, batch_size=128, activation=linear 
+[CV]  optimizer=SGD, neurons3=50, neurons2=300, neurons=7, momentum=0.2, learn_rate=0.1, epochs=40, dropout=0.4, batch_size=128, activation=linear, score=-17.26664073374215, total=15.3min
+[CV] optimizer=SGD, neurons3=50, neurons2=300, neurons=7, momentum=0.2, learn_rate=0.1, epochs=40, dropout=0.4, batch_size=128, activation=linear 
+[CV]  optimizer=SGD, neurons3=50, neurons2=300, neurons=7, momentum=0.2, learn_rate=0.1, epochs=40, dropout=0.4, batch_size=128, activation=linear, score=-17.263108135868276, total=15.4min
+[CV] optimizer=SGD, neurons3=50, neurons2=300, neurons=7, momentum=0.2, learn_rate=0.1, epochs=40, dropout=0.4, batch_size=128, activation=linear 
+[CV]  optimizer=SGD, neurons3=50, neurons2=300, neurons=7, momentum=0.2, learn_rate=0.1, epochs=40, dropout=0.4, batch_size=128, activation=linear, score=-17.27174322247164, total=15.3min
+[CV] optimizer=SGD, neurons3=50, neurons2=300, neurons=7, momentum=0.2, learn_rate=0.1, epochs=40, dropout=0.4, batch_size=128, activation=linear 

@@ -1,0 +1,43 @@
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+linear_models_with_calibration.py:80: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  df_valid['pred'] = prob_pos
+Start running..................
+Classifier: Lsvm
+	LogLoss: 0.723624
+Classifier: sigmoid_calibrated_Lsvm_gkfcv
+	LogLoss: 0.692757
+Classifier: sigmoid_calibrated_Lsvm_cv
+	LogLoss: 0.692756
+Classifier: sigmoid_calibrated_Lsvm_skfcv
+	LogLoss: 0.692843
+Classifier: isotonic_calibrated_Lsvm_gkfcv
+	LogLoss: 0.692841
+Classifier: isotonic_calibrated_Lsvm_cv
+	LogLoss: 0.692798
+Classifier: isotonic_calibrated_Lsvm_skfcv
+	LogLoss: 0.692944
+0.6927563346499165
+era121 3784 69.35% False
+era122 3802 69.22% True
+era123 3736 69.27% True
+era124 3826 69.20% True
+era125 3863 69.25% True
+era126 3980 69.22% True
+era127 3779 69.44% False
+era128 3833 69.31% False
+era129 3931 69.12% True
+era130 4007 69.28% True
+era131 3990 69.25% True
+era132 3831 69.42% False
+
+consistency: 66.7% (8/12)
+Saved: ./predictions/./linear_predictions_1527974922_6927563346499165.csv
+Saved stats: ./logs/stats_linear.txt
+Fished: 1580.112412929535s

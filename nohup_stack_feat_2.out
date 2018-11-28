@@ -1,0 +1,54 @@
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:  3.0min remaining:    0.0s
+[Parallel(n_jobs=1)]: Done  10 out of  10 | elapsed: 29.6min finished
+stackingcv_feat_sub.py:76: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  df_valid['pf'] = prob_pos
+Start running..................
+[CV]  ................................................................
+[CV] ................................................. , total= 3.0min
+[CV]  ................................................................
+[CV] ................................................. , total= 3.0min
+[CV]  ................................................................
+[CV] ................................................. , total= 3.0min
+[CV]  ................................................................
+[CV] ................................................. , total= 2.9min
+[CV]  ................................................................
+[CV] ................................................. , total= 3.0min
+[CV]  ................................................................
+[CV] ................................................. , total= 3.0min
+[CV]  ................................................................
+[CV] ................................................. , total= 2.9min
+[CV]  ................................................................
+[CV] ................................................. , total= 2.9min
+[CV]  ................................................................
+[CV] ................................................. , total= 3.0min
+[CV]  ................................................................
+[CV] ................................................. , total= 3.0min
+Log loss: -0.69296 (+/- 0.00) [StackingCVClassifier-xgb]
+era121 3784 69.27% True
+era122 3802 69.23% True
+era123 3736 69.25% True
+era124 3826 69.29% True
+era125 3863 69.22% True
+era126 3980 69.23% True
+era127 3779 69.30% False
+era128 3833 69.29% True
+era129 3931 69.25% True
+era130 4007 69.34% False
+era131 3990 69.30% False
+era132 3831 69.32% False
+
+consistency: 66.7% (8/12)
+Saved: ./predictions/./stacking_feat_sub_second_predictions_1528008252_6927509971866482.csv
+Saved stats: ./logs/second_feat_sub_stats.txt
+Fished: 1989.0667660236359s

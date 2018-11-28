@@ -1,0 +1,45 @@
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Start running..................
+[CV]  ................................................................
+Traceback (most recent call last):
+  File "stackingcv_feat_sub.py", line 70, in <module>
+    scores = cross_val_score(sc, X, y, cv=10, scoring='neg_log_loss', n_jobs=1, verbose=2)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 342, in cross_val_score
+    pre_dispatch=pre_dispatch)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 206, in cross_validate
+    for train, test in cv.split(X, y, groups))
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 779, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 625, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 588, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/externals/joblib/_parallel_backends.py", line 111, in apply_async
+    result = ImmediateResult(func)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/externals/joblib/_parallel_backends.py", line 332, in __init__
+    self.results = batch()
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 131, in __call__
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/externals/joblib/parallel.py", line 131, in <listcomp>
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 488, in _fit_and_score
+    test_scores = _score(estimator, X_test, y_test, scorer, is_multimetric)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 523, in _score
+    return _multimetric_score(estimator, X_test, y_test, scorer)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 553, in _multimetric_score
+    score = scorer(estimator, X_test, y_test)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/metrics/scorer.py", line 138, in __call__
+    y_pred = clf.predict_proba(X)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/mlxtend/classifier/stacking_cv_classification.py", line 377, in predict_proba
+    return self.meta_clf_.predict_proba(all_model_predictions)
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/svm/base.py", line 590, in predict_proba
+    self._check_proba()
+  File "/home/ubuntu/anaconda3/lib/python3.6/site-packages/sklearn/svm/base.py", line 557, in _check_proba
+    raise AttributeError("predict_proba is not available when "
+AttributeError: predict_proba is not available when  probability=False

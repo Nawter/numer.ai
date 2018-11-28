@@ -1,0 +1,174 @@
+Start running..................
+Start cross validation
+Best number of trees = 134
+[0]	validation_0-logloss:0.693096	validation_1-logloss:0.693094
+Multiple eval metrics have been passed: 'validation_1-logloss' will be used for early stopping.
+
+Will train until validation_1-logloss hasn't improved in 40 rounds.
+[1]	validation_0-logloss:0.693049	validation_1-logloss:0.693036
+[2]	validation_0-logloss:0.693007	validation_1-logloss:0.69299
+[3]	validation_0-logloss:0.692963	validation_1-logloss:0.692943
+[4]	validation_0-logloss:0.692922	validation_1-logloss:0.692901
+[5]	validation_0-logloss:0.692886	validation_1-logloss:0.692858
+[6]	validation_0-logloss:0.69285	validation_1-logloss:0.692812
+[7]	validation_0-logloss:0.692817	validation_1-logloss:0.692772
+[8]	validation_0-logloss:0.69278	validation_1-logloss:0.692728
+[9]	validation_0-logloss:0.692749	validation_1-logloss:0.692683
+[10]	validation_0-logloss:0.692721	validation_1-logloss:0.692661
+[11]	validation_0-logloss:0.692692	validation_1-logloss:0.692622
+[12]	validation_0-logloss:0.692665	validation_1-logloss:0.692586
+[13]	validation_0-logloss:0.692636	validation_1-logloss:0.692549
+[14]	validation_0-logloss:0.692608	validation_1-logloss:0.692507
+[15]	validation_0-logloss:0.692582	validation_1-logloss:0.692482
+[16]	validation_0-logloss:0.692556	validation_1-logloss:0.692459
+[17]	validation_0-logloss:0.692533	validation_1-logloss:0.692436
+[18]	validation_0-logloss:0.692511	validation_1-logloss:0.6924
+[19]	validation_0-logloss:0.692487	validation_1-logloss:0.692375
+[20]	validation_0-logloss:0.692465	validation_1-logloss:0.692353
+[21]	validation_0-logloss:0.692445	validation_1-logloss:0.692324
+[22]	validation_0-logloss:0.692427	validation_1-logloss:0.692293
+[23]	validation_0-logloss:0.692405	validation_1-logloss:0.692257
+[24]	validation_0-logloss:0.692384	validation_1-logloss:0.692222
+[25]	validation_0-logloss:0.692365	validation_1-logloss:0.692196
+[26]	validation_0-logloss:0.692345	validation_1-logloss:0.692175
+[27]	validation_0-logloss:0.692328	validation_1-logloss:0.692153
+[28]	validation_0-logloss:0.692308	validation_1-logloss:0.692116
+[29]	validation_0-logloss:0.692288	validation_1-logloss:0.69208
+[30]	validation_0-logloss:0.692274	validation_1-logloss:0.692063
+[31]	validation_0-logloss:0.692258	validation_1-logloss:0.692044
+[32]	validation_0-logloss:0.692239	validation_1-logloss:0.692011
+[33]	validation_0-logloss:0.692224	validation_1-logloss:0.691987
+[34]	validation_0-logloss:0.692208	validation_1-logloss:0.691964
+[35]	validation_0-logloss:0.692191	validation_1-logloss:0.691948
+[36]	validation_0-logloss:0.692173	validation_1-logloss:0.691925
+[37]	validation_0-logloss:0.692158	validation_1-logloss:0.69191
+[38]	validation_0-logloss:0.692143	validation_1-logloss:0.691892
+[39]	validation_0-logloss:0.692127	validation_1-logloss:0.691866
+[40]	validation_0-logloss:0.692112	validation_1-logloss:0.691852
+[41]	validation_0-logloss:0.692098	validation_1-logloss:0.691828
+[42]	validation_0-logloss:0.692084	validation_1-logloss:0.691813
+[43]	validation_0-logloss:0.692072	validation_1-logloss:0.691793
+[44]	validation_0-logloss:0.692061	validation_1-logloss:0.691776
+[45]	validation_0-logloss:0.692044	validation_1-logloss:0.691754
+[46]	validation_0-logloss:0.692029	validation_1-logloss:0.691719
+[47]	validation_0-logloss:0.692017	validation_1-logloss:0.691703
+[48]	validation_0-logloss:0.692005	validation_1-logloss:0.691688
+[49]	validation_0-logloss:0.691992	validation_1-logloss:0.691664
+[50]	validation_0-logloss:0.691981	validation_1-logloss:0.691649
+[51]	validation_0-logloss:0.691967	validation_1-logloss:0.691633
+[52]	validation_0-logloss:0.691956	validation_1-logloss:0.691616
+[53]	validation_0-logloss:0.691943	validation_1-logloss:0.691596
+[54]	validation_0-logloss:0.691931	validation_1-logloss:0.691581
+[55]	validation_0-logloss:0.691921	validation_1-logloss:0.691565
+[56]	validation_0-logloss:0.691912	validation_1-logloss:0.691547
+[57]	validation_0-logloss:0.691896	validation_1-logloss:0.69153
+[58]	validation_0-logloss:0.691885	validation_1-logloss:0.691513
+[59]	validation_0-logloss:0.691877	validation_1-logloss:0.691509
+[60]	validation_0-logloss:0.691868	validation_1-logloss:0.6915
+[61]	validation_0-logloss:0.691857	validation_1-logloss:0.691493
+[62]	validation_0-logloss:0.691845	validation_1-logloss:0.691477
+[63]	validation_0-logloss:0.691831	validation_1-logloss:0.691465
+[64]	validation_0-logloss:0.691822	validation_1-logloss:0.691441
+[65]	validation_0-logloss:0.691813	validation_1-logloss:0.691432
+[66]	validation_0-logloss:0.691803	validation_1-logloss:0.691423
+[67]	validation_0-logloss:0.691792	validation_1-logloss:0.69141
+[68]	validation_0-logloss:0.691784	validation_1-logloss:0.691403
+[69]	validation_0-logloss:0.691772	validation_1-logloss:0.691399
+[70]	validation_0-logloss:0.691764	validation_1-logloss:0.691392
+[71]	validation_0-logloss:0.691754	validation_1-logloss:0.691392
+[72]	validation_0-logloss:0.691743	validation_1-logloss:0.691384
+[73]	validation_0-logloss:0.691737	validation_1-logloss:0.691375
+[74]	validation_0-logloss:0.691725	validation_1-logloss:0.691367
+[75]	validation_0-logloss:0.691713	validation_1-logloss:0.691353
+[76]	validation_0-logloss:0.691705	validation_1-logloss:0.691344
+[77]	validation_0-logloss:0.691695	validation_1-logloss:0.691328
+[78]	validation_0-logloss:0.691686	validation_1-logloss:0.69132
+[79]	validation_0-logloss:0.691678	validation_1-logloss:0.691319
+[80]	validation_0-logloss:0.691671	validation_1-logloss:0.691308
+[81]	validation_0-logloss:0.691663	validation_1-logloss:0.691305
+[82]	validation_0-logloss:0.691653	validation_1-logloss:0.691288
+[83]	validation_0-logloss:0.691644	validation_1-logloss:0.691279
+[84]	validation_0-logloss:0.691637	validation_1-logloss:0.691272
+[85]	validation_0-logloss:0.691628	validation_1-logloss:0.691267
+[86]	validation_0-logloss:0.691621	validation_1-logloss:0.691271
+[87]	validation_0-logloss:0.691609	validation_1-logloss:0.691256
+[88]	validation_0-logloss:0.691602	validation_1-logloss:0.691239
+[89]	validation_0-logloss:0.69159	validation_1-logloss:0.69122
+[90]	validation_0-logloss:0.691581	validation_1-logloss:0.691212
+[91]	validation_0-logloss:0.691572	validation_1-logloss:0.691194
+[92]	validation_0-logloss:0.691564	validation_1-logloss:0.691184
+[93]	validation_0-logloss:0.691554	validation_1-logloss:0.691173
+[94]	validation_0-logloss:0.691545	validation_1-logloss:0.69117
+[95]	validation_0-logloss:0.691536	validation_1-logloss:0.691164
+[96]	validation_0-logloss:0.691527	validation_1-logloss:0.691151
+[97]	validation_0-logloss:0.691517	validation_1-logloss:0.691141
+[98]	validation_0-logloss:0.69151	validation_1-logloss:0.691135
+[99]	validation_0-logloss:0.6915	validation_1-logloss:0.691127
+[100]	validation_0-logloss:0.691492	validation_1-logloss:0.691117
+[101]	validation_0-logloss:0.691485	validation_1-logloss:0.691112
+[102]	validation_0-logloss:0.691478	validation_1-logloss:0.691096
+[103]	validation_0-logloss:0.691468	validation_1-logloss:0.691073
+[104]	validation_0-logloss:0.691457	validation_1-logloss:0.69106
+[105]	validation_0-logloss:0.69145	validation_1-logloss:0.691053
+[106]	validation_0-logloss:0.691442	validation_1-logloss:0.691036
+[107]	validation_0-logloss:0.691433	validation_1-logloss:0.691025
+[108]	validation_0-logloss:0.691423	validation_1-logloss:0.691
+[109]	validation_0-logloss:0.691416	validation_1-logloss:0.690999
+[110]	validation_0-logloss:0.691409	validation_1-logloss:0.690988
+[111]	validation_0-logloss:0.691405	validation_1-logloss:0.690987
+[112]	validation_0-logloss:0.691396	validation_1-logloss:0.690971
+[113]	validation_0-logloss:0.691387	validation_1-logloss:0.690953
+[114]	validation_0-logloss:0.691378	validation_1-logloss:0.690944
+[115]	validation_0-logloss:0.69137	validation_1-logloss:0.690938
+[116]	validation_0-logloss:0.691362	validation_1-logloss:0.690922
+[117]	validation_0-logloss:0.691354	validation_1-logloss:0.690912
+[118]	validation_0-logloss:0.691343	validation_1-logloss:0.690901
+[119]	validation_0-logloss:0.691336	validation_1-logloss:0.690889
+[120]	validation_0-logloss:0.691326	validation_1-logloss:0.690867
+[121]	validation_0-logloss:0.691322	validation_1-logloss:0.690864
+[122]	validation_0-logloss:0.691312	validation_1-logloss:0.69086
+[123]	validation_0-logloss:0.691301	validation_1-logloss:0.690851
+[124]	validation_0-logloss:0.691295	validation_1-logloss:0.690847
+[125]	validation_0-logloss:0.691289	validation_1-logloss:0.690836
+[126]	validation_0-logloss:0.69128	validation_1-logloss:0.690837
+[127]	validation_0-logloss:0.691272	validation_1-logloss:0.690834
+[128]	validation_0-logloss:0.691266	validation_1-logloss:0.690828
+[129]	validation_0-logloss:0.691257	validation_1-logloss:0.690818
+[130]	validation_0-logloss:0.691247	validation_1-logloss:0.690801
+[131]	validation_0-logloss:0.691242	validation_1-logloss:0.690789
+[132]	validation_0-logloss:0.691235	validation_1-logloss:0.690783
+[133]	validation_0-logloss:0.691231	validation_1-logloss:0.690784
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+XGBoost_method.py:76: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  df_valid['pf'] = prob_pos[:, 1]
+[[0.48875523 0.5112448 ]
+ [0.5009742  0.49902582]
+ [0.5076039  0.49239612]
+ ...
+ [0.49978137 0.50021863]
+ [0.46893507 0.5310649 ]
+ [0.4892648  0.5107352 ]]
+era121 3784 69.15% True
+era122 3802 68.91% True
+era123 3736 69.10% True
+era124 3826 68.98% True
+era125 3863 69.07% True
+era126 3980 69.05% True
+era127 3779 69.27% True
+era128 3833 69.07% True
+era129 3931 69.01% True
+era130 4007 69.02% True
+era131 3990 69.11% True
+era132 3831 69.20% True
+
+consistency: 100.0% (12/12)
+Saved: ./predictions/./xgboost__predictions_1527977904_6907841773651224.csv
+Saved stats: ./logs/stats_xgboost.txt
+Fished: 4555.243909835815s

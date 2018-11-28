@@ -1,0 +1,91 @@
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+random_forest_v2.py:53: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  valid['pred'] = bagged_prediction
+Start running..................
+number of bag: 0
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+number of bag: 1
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+number of bag: 2
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+number of bag: 3
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+number of bag: 4
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+number of bag: 5
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+number of bag: 6
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+number of bag: 7
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+number of bag: 8
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+number of bag: 9
+number of tree: 17
+number of tree: 31
+number of tree: 51
+number of tree: 101
+number of tree: 203
+finishesd loop
+[0.50759221 0.50267031 0.50134303 ... 0.50321973 0.51354551 0.50986034]
+Logloss: 0.6926613309106339
+era121 3784 69.26% True
+era122 3802 69.22% True
+era123 3736 69.28% True
+era124 3826 69.27% True
+era125 3863 69.29% True
+era126 3980 69.24% True
+era127 3779 69.28% True
+era128 3833 69.29% True
+era129 3931 69.14% True
+era130 4007 69.27% True
+era131 3990 69.29% True
+era132 3831 69.37% False
+
+consistency: 91.7% (11/12)
+Saved: ./predictions/./rf_v2_predictions_1527978506_6926613309106339.csv
+Saved stats: ./logs/stats_rf_v2.txt
+Fished: 5156.51318359375s
